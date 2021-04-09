@@ -1,3 +1,8 @@
+body{
+    margin-left: 150px;
+    margin-right: 150px;
+    top: 0%;
+}
 .header{
     position: relative;
     display: flex;
@@ -13,6 +18,7 @@
 .mybanner{
     justify-content: center;
     align-content: center;
+    margin-left: 30px;
     padding-top: 50px;
     padding-right: 50px;
     padding-bottom: 50px;
@@ -21,21 +27,18 @@
     position: absolute;
     display: flex;
     color: white;
-    border: solid red 4px ;
     top: 0%;
-    left: 35%;
+    left: 45%;
     height: 80%;
-    width: 60%;
+    width: 50%;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 15%;
     list-style-type: none;
 }
 .liste>ul>li>p{
-    border: red solid 1px;
     width: 60%;
     display: flex;
-    text-align: center;
 }
 .para{
     margin-left: 5px;
@@ -50,17 +53,61 @@
     margin-left: -10px;
 }
 .bleugris{
-
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background-color: #334D5C;
+}
+.package{
+    position: absolute;
+    height: 100%;
+    width: 30%;
+}
+.imgpackage{
+    position: absolute;
+    top: 65px;
+    left: 25%;
+}
+.titres{
+    position: absolute;
+    width: 65%;
+    height: 100%;
+    color: white;
+    left: 30%;
+}
+.titres>h1{
+    position: absolute;
+    top: 10%;
+    left: 40px;
+    font-size: 65px;
+}
+.titres>h2{
+    position: absolute;
+    top: 37%;
+    left: 40px;
+    font-size: 50px;
 }
 .blanc{
+    height: 400px;
+    width: 100%;
+    position: relative;
+    border: solid black 1px;
 
 }
 .beige{
+    height: 200px;
+    width: 100%;
+    background-color: #EAE3D6;
 
 }
 .beige2{
-
+    height: 250px;
+    width: 100%;
+    background-color: #EAE3D6;
 }
 .footer{
-
+    height: 300px;
+    width: 100%;
+    background-color: black;
 }

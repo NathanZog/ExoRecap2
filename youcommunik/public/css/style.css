@@ -1,0 +1,66 @@
+.header{
+    position: relative;
+    display: flex;
+    height: 150px;
+    background-color:black;
+}
+.divImg{
+    display: flex;
+    position: absolute;
+    width: 30%;
+    height: 100%;
+}
+.mybanner{
+    justify-content: center;
+    align-content: center;
+    padding-top: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+}
+.liste{
+    position: absolute;
+    display: flex;
+    color: white;
+    border: solid red 4px ;
+    top: 0%;
+    left: 35%;
+    height: 80%;
+    width: 60%;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15%;
+    list-style-type: none;
+}
+.liste>ul>li>p{
+    border: red solid 1px;
+    width: 60%;
+    display: flex;
+    text-align: center;
+}
+.para{
+    margin-left: 5px;
+}
+.para1{
+    margin-left: 15px;
+}
+.para2{
+    margin-left: 13px;
+}
+.para3{
+    margin-left: -10px;
+}
+.bleugris{
+
+}
+.blanc{
+
+}
+.beige{
+
+}
+.beige2{
+
+}
+.footer{
+
+}

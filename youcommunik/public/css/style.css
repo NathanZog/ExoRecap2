@@ -95,7 +95,7 @@ body{
     font-size: 50px;
 }
 /*Fin de la div package*/
-/*premiere div blanche*/
+/*div blanches*/
 .blanc{
     background-color: whitesmoke;
     height: 500px;
@@ -129,13 +129,34 @@ body{
     font-weight: bold;
 }
 
-/*Fin de la premiere div blanche*/
-
+/*Fin div blanches*/
+/*Debut div beige 1 et 3*/
 .beige{
+    position : relative;
+    display: flex;
     height: 200px;
     width: 100%;
     background-color: #EAE3D6;
 
+}
+.liste2{
+    position : absolute;
+    display: flex;
+    justify-content: space-evenly;
+    width: 96.5%;
+    list-style-type: none;
+}
+.imgListe2{
+    height: 125px;
+    width: 125px;
+}
+.beige>div>ul>li>p{
+    font-weight: bold;
+    width: 200px;
+    height: 30px;
+    margin-left: -38px;
+    font-size: 120%;
+    text-align: center;
 }
 .beige2{
     height: 250px;
@@ -143,7 +164,7 @@ body{
     background-color: #EAE3D6;
 }
 .footer{
-    height: 150px;
+    height: 200px;
     width: 100%;
     background-color: black;
 }

@@ -163,7 +163,6 @@ body{
 .beige2{
     position: relative;
     display: flex;
-    flex-wrap: wrap;
     height: 400px;
     width: 100%;
     background-color: #EAE3D6;
@@ -201,9 +200,44 @@ body{
     font-size: 120%;
     text-align: center;
 }
+/*Fin div beige 2*/
 /*Debut footer*/
-.footer{
+footer{
+    position: relative;
     height: 200px;
     width: 100%;
     background-color: black;
+}
+.footer1{
+    position: absolute;
+    display: flex;
+    border: solid red 1px;
+    height: 100%;
+    width: 30%;
+    left: 10%;
+}
+.footer2{
+    position: absolute;
+    display: flex;
+    border: solid red 1px;
+    height: 100%;
+    width: 30%;
+    left: 40%;
+}
+.footer3{
+    position: absolute;
+    display: flex;
+    border: solid red 1px;
+    height: 100%;
+    width: 30%;
+    left: 70%;
+}
+h3{
+    color: white;
+}
+h5{
+    position: absolute;
+    color: white;
+    left: 95%;
+    bottom: 5%;
 }

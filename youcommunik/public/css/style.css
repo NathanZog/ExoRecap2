@@ -43,19 +43,27 @@ body{
     display: flex;
 }
 .para{
-    margin-left: 5px;
+    font-family: 'Ubuntu', sans-serif;
 }
 .para1{
-    margin-left: 15px;
+    margin-left: 12px;
+    font-family: 'Ubuntu', sans-serif;
 }
 .para2{
-    margin-left: 13px;
+    margin-left: 12px;
+    font-family: 'Ubuntu', sans-serif;
 }
 .para3{
-    margin-left: -10px;
+    margin-left: -13px;
+    font-family: 'Ubuntu', sans-serif;
 }
 .para4{
-    margin-left: 9px;
+    margin-left: 3px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.para5{
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 7px;
 }
 /*Fin Header*/
 /*Div package*/
@@ -87,13 +95,15 @@ body{
     position: absolute;
     top: 10%;
     left: 40px;
-    font-size: 65px;
+    font-size: 55px;
+    font-family: 'Ubuntu', sans-serif;
 }
 .titres>h2{
     position: absolute;
     top: 37%;
     left: 40px;
-    font-size: 50px;
+    font-size: 40px;
+    font-family: 'Ubuntu', sans-serif;
 }
 /*Fin de la div package*/
 /*div blanches*/
@@ -116,9 +126,10 @@ body{
     max-height: max-content;
     width: 30%;
     text-align: center;
-    font-size: 65px;
+    font-size: 50px;
     background-color:  #334D5C;
     color: white;
+    font-family: 'Ubuntu', sans-serif;
 }
 .divtxt{
     position: absolute;
@@ -127,6 +138,7 @@ body{
     margin-right: 100px;
     font-size: 25px;
     font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 /*Fin div blanches*/
@@ -157,6 +169,7 @@ body{
     margin-left: -38px;
     font-size: 120%;
     text-align: center;
+    font-family: 'Ubuntu', sans-serif;
 }
 /*Fin div beige 1 et 3*/
 /*Debut div beige 2*/
@@ -199,6 +212,7 @@ body{
     margin-left: -38px;
     font-size: 120%;
     text-align: center;
+    font-family: 'Ubuntu', sans-serif;
 }
 /*Fin div beige 2*/
 /*Debut footer*/
@@ -234,10 +248,12 @@ footer{
 }
 h3{
     color: white;
+    font-family: 'Ubuntu', sans-serif;
 }
 h5{
     position: absolute;
     color: white;
     left: 95%;
     bottom: 5%;
+    font-family: 'Ubuntu', sans-serif;
 }

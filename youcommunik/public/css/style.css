@@ -2,6 +2,7 @@ body{
     margin-left: 150px;
     margin-right: 150px;
     top: 0%;
+    
 }
 /*Header*/
 .header{
@@ -102,7 +103,6 @@ body{
     width: 100%;
     position: relative;
     display: flex;
-    border: solid black 1px;
 }
 .imgeclosion{
     position: absolute;
@@ -158,11 +158,50 @@ body{
     font-size: 120%;
     text-align: center;
 }
+/*Fin div beige 1 et 3*/
+/*Debut div beige 2*/
 .beige2{
-    height: 250px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
     width: 100%;
     background-color: #EAE3D6;
 }
+.beige2>.liste3{
+    position: absolute;
+    display: flex;
+    list-style-type: none;
+    width: 97%;
+    justify-content: space-evenly;
+}
+.imgListe3{
+    height: 125px;
+    width: 125px;
+}
+.Listesolo{
+    position: absolute;
+    display: flex;
+    list-style-type: none;
+    width: 97%;
+    justify-content: center;
+    top: 45%;
+    height: 150px;
+}
+.imgSeule{
+    height: 125px;
+    width: 125px;
+}
+
+.beige2>ul>li>p{
+    font-weight: bold;
+    width: 200px;
+    height: 30px;
+    margin-left: -38px;
+    font-size: 120%;
+    text-align: center;
+}
+/*Debut footer*/
 .footer{
     height: 200px;
     width: 100%;

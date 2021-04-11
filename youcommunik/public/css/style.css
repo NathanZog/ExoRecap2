@@ -244,8 +244,10 @@ footer{
     left: 70%;
 }
 h3{
+    position: absolute;
     color: white;
     font-family: 'Ubuntu', sans-serif;
+    margin-top: 35px;
 }
 h5{
     position: absolute;
